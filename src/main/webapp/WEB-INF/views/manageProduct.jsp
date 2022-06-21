@@ -134,7 +134,7 @@
     </div>
 
 
-    <div class="row">
+    <!-- <div class="row">
         <div class="col-xs-12">
             <h3>Available Products</h3>
             <hr/>
@@ -174,7 +174,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <div class="modal fade" id="myCategoryModal" role="dialog"

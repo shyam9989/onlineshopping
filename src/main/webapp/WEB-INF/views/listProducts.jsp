@@ -66,7 +66,6 @@
                                 </tr>
                                 </thead>
 
-
                                 <tfoot>
                                 <tr>
                                     <th></th>
