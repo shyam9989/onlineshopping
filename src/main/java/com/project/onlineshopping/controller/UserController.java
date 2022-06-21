@@ -97,7 +97,7 @@ public class UserController {
 			) {
 		ModelAndView modelAndView=null;
 		User user= userRepository.findUserByEmailAndPassword(username,password);
-		if(user.getRole().equalsIgnoreCase("admin")) {
+		if(user.getRole().equalsIgnoreCase("SUPPLIER")) {
 			 modelAndView= new ModelAndView("adminHome");
 			 modelAndView.addObject("user",user);
 		}else {
